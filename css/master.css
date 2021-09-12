@@ -1,0 +1,87 @@
+/* For Background color*/
+/*body {background-color: #FFCB98;}
+*/
+.loader{position:fixed; width:100%; height:100%; background:#fff; z-index:999999}
+body {
+  background-image: url("../bg2.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+/* For Portfolio Image*/
+#main-img{
+	margin: 13px 0 0 -8px;
+	
+}
+/* For Intro-Text*/
+#intro-text
+{
+	 margin-top: 25px; 
+	 margin-bottom: 0px;
+	 margin-left:	5px;
+	 font-size:		15px;
+	 font-family: 	Trebuchet MS;	 
+}
+#text-color{
+	color:	white
+}
+/* For Social Media Profile*/
+#linkedin-twitter{
+	width:	26px;
+	height:	25px;
+}
+#commom-header{
+	font-family: 	Times New Roman;
+}
+
+#common{
+	font-size:		16px;
+	font-family: 	Trebuchet MS;
+}
+#footer{
+	
+	background-color: #519da9;
+	
+	width:				auto;
+	height: 			40px;	
+}
+#footer-icon{
+	width:	20px;
+	height:	20px;
+	
+}
+#footer-text-size{
+font-size:		11px;
+color:		#ffff;
+font-family: 	Trebuchet MS;
+
+}
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
+#more {display: none;}
+
+/*collapse menu*/
+.collapsible {
+  background-color: #519da9;
+  color: #ffff;
+  cursor: pointer;
+  padding: 6px;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 12px;
+  font-weight: bold
+}
+
+.active, .collapsible:hover {
+  background-color: #ffff;
+  color:			#000000;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  font-family: 	Trebuchet MS;
+}
